@@ -46,6 +46,6 @@ public class ManHinhDangNhap extends AppCompatActivity {
             // Quay lại màn hình trước đó
             onBackPressed();  // Hoặc sử dụng finish() nếu muốn đóng activity hiện tại
         });
-
+    // abc abcasdfgjhgfdsdf
     }
 }
