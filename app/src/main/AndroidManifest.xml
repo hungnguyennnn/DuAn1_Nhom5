@@ -13,9 +13,6 @@
         android:theme="@style/Theme.DuAn1"
         tools:targetApi="31">
         <activity
-            android:name=".ManHinhGioHang"
-            android:exported="false" />
-        <activity
             android:name=".ManHinhHome"
             android:exported="false"
             android:label="@string/title_activity_man_hinh_home"
@@ -23,10 +20,13 @@
             android:theme="@style/Theme.DuAn1.NoActionBar"
             tools:targetApi="24" />
         <activity
+            android:name=".ManHinhGioHang"
+            android:exported="false" />
+        <activity
             android:name=".ManHinhDangKy"
             android:exported="false" />
         <activity
-            android:name=".ManHinhDangNhap"
+            android:name="com.example.duan1_nhom5.ManHinhDangNhap"
             android:exported="false" />
         <activity
             android:name=".ManHinhLuaChon"
